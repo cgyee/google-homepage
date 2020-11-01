@@ -1,41 +1,52 @@
 <!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <html>
     <body>
-        <div>
-            <nav>
-                <div>
-                    <a href="">About</a>
+        <header>
+            <nav class="navbar-grid">
+                <div class="about-section">
+                    <a class="about-section-text" href="">About</a>
+                    <a class="about-section-text" href="">Store</a>
                 </div>
-                <div>
-                    <a href="">Store</a>
+                <div class="signin-section">
+                    <a class="signin-section-text" href="">Gmail</a>
+                    <a class="signin-section-text" href="">Images</a>
+                    <a class="signin-section-text" id="appTag" href=""><img id="appsIcon" src="Images/apps-24px.svg"></a>
+                    <a class="signin-section-text" href="">Sign in</a>
                 </div>
             </nav>
-        </div>
-        <div>
-            <div>
-                <a href="">Gmail</a>
+        </header>
+
+        <main class="google-main">
+            <div >
+                <img id="googleIcon" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
             </div>
             <div>
-                <a href="">Images</a>
+                <form class="search-form">
+                    <input class="search-form-input" type="text" placeholder="Search">
+                    <div class="submit-section">
+                        <button class="submit-section-button" type="submit" placeholder="Google Search">Google Search</button> 
+                        <button class="submit-section-button" type="submit" placeholder="I'm Feeling Lucky">I'm feeling lucky</button> 
+                    </div>
+                </form>
             </div>
-            <div>
-                <a href=""><img src="https://www.flaticon.com/svg/static/icons/svg/60/60991.svg"></a>
+        </main>
+        <footer class="footer-bar">
+            <div class="footer-div">
+                <div class="advert-section">
+                    <a class="left-section-text" href="">Advertising</a>
+                    <a class="left-section-text" href="">Business</a>
+                    <a class="left-section-text" href="">How Search works</a>
+                </div>
+                <div class="privacy-section">
+                    <a class="right-section-text" href="">Privacy</a>
+                    <a class="right-section-text" href="">Terms</a>
+                    <a class="right-section-text" href="">Settings</a>
+                </div>
             </div>
-            <div>
-                <a href="">Sign in</a>
-            </div>
-        </div>
-        <div>
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-        </div>
-        <div>
-            <form>
-                <input type="text" placeholder="Search">
-            </form>
-        </div>
-        <div>
-            <div></div>
-        </div>
+        </footer>   
     </body>
     
 </html>
