@@ -32,7 +32,12 @@ a {
 }
 
 .google-main {
-    padding-top: 150px;
+    margin-top: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
 }
 
 .search-section {
@@ -47,10 +52,11 @@ a {
     margin-left: auto;
     margin-right: auto;
     width: 428px;
+    height: 40px;
 }
 
 .submit-section {
-    padding: 10px;
+    margin-top: 15px;
     display: flex;
     justify-content: center;
 }
@@ -69,6 +75,12 @@ a {
 .footer-div {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.footer-text {
+    padding-top: 0;
+    margin-bottom: 10px;
+    font-size: 17px;
 }
 
 .advert-section {
@@ -92,14 +104,6 @@ a {
 }
 
 #googleIcon {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-    height: auto;
-}
-
-.google-main {
     display: block;
     margin-left: auto;
     margin-right: auto;
